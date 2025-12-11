@@ -103,10 +103,11 @@ The app automatically requires authentication when:
 ## 📸 Screenshots Location
 
 Add your app screenshots to the `screenshots/` directory:
-- `screenshot1.png` - Home screen
-- `screenshot2.png` - Authentication screen
-- `screenshot3.png` - Add password with generator
-- `screenshot4.png` - Password strength meter
+- `screenshot1.jpg` - Authentication page
+- `screenshot2.jpg` - Add new accout screen
+- `screenshot3.jpg` - Home screen
+- `screenshot4.jpg` - Details information screen 
+- `screenshot4.jpg` - Update information screen
 
 ## 📄 License
 
