@@ -21,11 +21,11 @@ A modern, secure password manager for Android built with Jetpack Compose. Store,
 
 ## 📱 Screenshots
 
-<!-- Add your app screenshots here -->
-![App Screenshot 1](screenshots/screenshot1.png)
-![App Screenshot 2](screenshots/screenshot2.png)
-![App Screenshot 3](screenshots/screenshot3.png)
-![App Screenshot 4](screenshots/screenshot4.png)
+![Authentication Screen](screenshots/screenshot1.jpg)
+![Add New Account](screenshots/screenshot2.jpg)
+![Home Screen](screenshots/screenshot3.jpg)
+![Account Details](screenshots/screenshot4.jpg)
+![Update Account](screenshots/screenshot5.jpg)
 
 ## 🚀 Quick Start
 
@@ -100,14 +100,14 @@ The app automatically requires authentication when:
 - App resumes after being paused
 - Every time you open the app
 
-## 📸 Screenshots Location
+## 📸 Screenshots
 
-Add your app screenshots to the `screenshots/` directory:
-- `screenshot1.jpg` - Authentication page
-- `screenshot2.jpg` - Add new accout screen
+Screenshots are located in the `screenshots/` directory:
+- `screenshot1.jpg` - Authentication screen
+- `screenshot2.jpg` - Add new account screen
 - `screenshot3.jpg` - Home screen
-- `screenshot4.jpg` - Details information screen 
-- `screenshot4.jpg` - Update information screen
+- `screenshot4.jpg` - Account details screen
+- `screenshot5.jpg` - Update account screen
 
 ## 📄 License
 
