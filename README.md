@@ -1,5 +1,8 @@
 # 🔐 PassAssist - Secure Password Manager
 
+> **Copyright (c) 2024 Master Pushers. All Rights Reserved.**  
+> This is proprietary software. Unauthorized copying is prohibited.
+
 A modern, secure password manager for Android built with Jetpack Compose. Store, manage, and protect your passwords with enterprise-grade security.
 
 ## ✨ Features
@@ -121,7 +124,23 @@ Screenshots are located in the `screenshots/` directory:
 
 ## 📄 License
 
-MIT License - See LICENSE file for details
+**Copyright (c) 2024 Master Pushers. All Rights Reserved.**
+
+This project is proprietary software. Unauthorized copying, modification, distribution, or use of this software, via any medium, is strictly prohibited without the express written permission of Master Pushers.
+
+### ⚠️ Restrictions
+
+- ❌ **No copying** - Do not copy, clone, or fork this project
+- ❌ **No modification** - Do not modify or create derivative works
+- ❌ **No distribution** - Do not redistribute this software
+- ❌ **No commercial use** - Do not use for commercial purposes
+- ✅ **Educational use only** - Viewing source code for learning is permitted
+
+### 📝 Full License
+
+See [LICENSE](LICENSE) file for complete terms and conditions.
+
+**For licensing inquiries, please contact the repository owner.**
 
 ## 👨‍💻 Development
 

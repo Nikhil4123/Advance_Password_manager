@@ -1,0 +1,9 @@
+Copyright (c) 2024 Master Pushers. All Rights Reserved.
+
+This software is proprietary and confidential. Unauthorized copying, 
+modification, distribution, or use of this software, via any medium, 
+is strictly prohibited without the express written permission of 
+Master Pushers.
+
+For licensing inquiries, please contact the repository owner.
+
