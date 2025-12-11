@@ -16,6 +16,7 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Fingerprint
@@ -40,11 +41,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import com.masterpushers.pass_assist.R
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.masterpushers.pass_assist.ui.theme.ButtonBlack
@@ -137,14 +140,26 @@ fun BiometricAuthScreen(
             .padding(horizontal = 32.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        // App Logo - To resize: change .size() value
+        // Recommended sizes: 80dp (small), 100dp (default), 120dp (large)
+        Image(
+            painter = painterResource(id = R.drawable.pass_logo),
+            contentDescription = "PassAssist Logo",
+            modifier = Modifier
+                .size(80.dp) // Change this value to resize
+                .padding(8.dp)
+        )
+        
+        Spacer(modifier = Modifier.height(16.dp))
+        
         Icon(
             imageVector = Icons.Default.Fingerprint,
             contentDescription = "Fingerprint",
-            modifier = Modifier.size(100.dp),
+            modifier = Modifier.size(72.dp),
             tint = MaterialTheme.colorScheme.primary
         )
         
-        Spacer(modifier = Modifier.height(32.dp))
+        Spacer(modifier = Modifier.height(24.dp))
         
         Text(
             text = "Unlock Password Manager",
@@ -240,14 +255,26 @@ fun PinAuthScreen(
             .padding(horizontal = 32.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        // App Logo - To resize: change .size() value
+        // Recommended sizes: 80dp (small), 100dp (default), 120dp (large)
+        Image(
+            painter = painterResource(id = R.drawable.pass_logo),
+            contentDescription = "PassAssist Logo",
+            modifier = Modifier
+                .size(100.dp) // Change this value to resize
+                .padding(8.dp)
+        )
+        
+        Spacer(modifier = Modifier.height(16.dp))
+        
         Icon(
             imageVector = Icons.Default.Lock,
             contentDescription = "Lock",
-            modifier = Modifier.size(100.dp),
+            modifier = Modifier.size(72.dp),
             tint = MaterialTheme.colorScheme.primary
         )
         
-        Spacer(modifier = Modifier.height(32.dp))
+        Spacer(modifier = Modifier.height(24.dp))
         
         Text(
             text = "Enter PIN",
@@ -329,14 +356,26 @@ fun PinSetupScreen(
             .padding(horizontal = 32.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        // App Logo - To resize: change .size() value
+        // Recommended sizes: 80dp (small), 100dp (default), 120dp (large)
+        Image(
+            painter = painterResource(id = R.drawable.pass_logo),
+            contentDescription = "PassAssist Logo",
+            modifier = Modifier
+                .size(100.dp) // Change this value to resize
+                .padding(8.dp)
+        )
+        
+        Spacer(modifier = Modifier.height(16.dp))
+        
         Icon(
             imageVector = Icons.Default.Lock,
             contentDescription = "Lock",
-            modifier = Modifier.size(100.dp),
+            modifier = Modifier.size(72.dp),
             tint = MaterialTheme.colorScheme.primary
         )
         
-        Spacer(modifier = Modifier.height(32.dp))
+        Spacer(modifier = Modifier.height(24.dp))
         
         Text(
             text = if (!isConfirming) "Create PIN" else "Confirm PIN",
