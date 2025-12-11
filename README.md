@@ -21,11 +21,21 @@ A modern, secure password manager for Android built with Jetpack Compose. Store,
 
 ## 📱 Screenshots
 
-![Authentication Screen](screenshots/screenshot1.jpg)
-![Add New Account](screenshots/screenshot2.jpg)
-![Home Screen](screenshots/screenshot3.jpg)
-![Account Details](screenshots/screenshot4.jpg)
-![Update Account](screenshots/screenshot5.jpg)
+<div align="center">
+
+| Authentication Screen | Add New Account |
+|:---:|:---:|
+| <img src="screenshots/screenshot1.jpg" width="250"/> | <img src="screenshots/screenshot2.jpg" width="250"/> |
+
+| Home Screen | Account Details |
+|:---:|:---:|
+| <img src="screenshots/screenshot3.jpg" width="250"/> | <img src="screenshots/screenshot4.jpg" width="250"/> |
+
+| Update Account |
+|:---:|
+| <img src="screenshots/screenshot5.jpg" width="250"/> |
+
+</div>
 
 ## 🚀 Quick Start
 
